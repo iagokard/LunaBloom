@@ -1,0 +1,118 @@
+# ======================================
+# Java/Spring Boot
+# ======================================
+# Build
+target/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+bin/
+out/
+*.jar
+*.war
+*.ear
+
+# Dependencies
+.gradle/
+.mvn/
+mvnw
+mvnw.cmd
+
+# Logs
+*.log
+logs/
+
+# Spring Boot
+application.properties
+application-local*.yml
+!application.yml # Mantenha o arquivo principal
+spring-boot-devtools.properties
+
+# ======================================
+# JavaScript/Svelte
+# ======================================
+# Dependencies
+node_modules/
+.svelte-kit/
+package/
+
+# Build
+/build/
+/package/
+/public/build/
+
+# Environment
+.env
+.env.*
+.env.local
+
+# Cache
+.cache/
+.svelte/
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ======================================
+# PostgreSQL
+# ======================================
+# Dados locais
+/data/
+*.pid
+*.lock
+
+# Logs do banco
+postgresql.log
+
+# ======================================
+# IDEs/Editores
+# ======================================
+# VS Code
+.vscode/
+!.vscode/extensions.json
+*.code-workspace
+
+# Neovim
+*.swp
+*.swo
+*.un~
+~/
+
+# JetBrains (caso alguém use)
+.idea/
+*.iml
+
+# ======================================
+# Sistemas Operacionais
+# ======================================
+# Windows
+Thumbs.db
+Desktop.ini
+[Dd]esktop.ini
+
+# Linux/Mac
+.DS_Store
+*.swp
+
+# Arquivos temporários
+*.tmp
+*.bak
+
+# ======================================
+# Testes/Cobertura
+# ======================================
+# Java
+coverage/
+*.exec
+
+# JavaScript
+/coverage/
+/cypress/downloads/
+/cypress/screenshots/
+/cypress/videos/
+
+# ======================================
+# Docker (opcional)
+# ======================================
+docker-compose.override.yml
